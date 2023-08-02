@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(rgba);
+        }
+        .a{
+            height: 450px;
+            width: 300px;
+            background-image: url(./lord_venkateswara.jpeg);
+            background-size: 300px 450px;
+            margin: auto;
+            border: 10px solid saddlebrown;
+            overflow: hidden;
+        }
+        .a:hover{
+            transform: scale(1.2,1.2);
+            /* background-size: 105% 105%;  */
+            overflow: hidden;
+        }
+        .b{
+            background-image: url(./door1.jpg);
+            height: 450px;
+            width: 150px;
+            background-size:100% 100%;
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            /* position: absolute;
+            top: 0px;
+            left: 0px; */
+            transform:  perspective(400px) rotateY(0deg);
+            transform-origin: left;
+            overflow: hidden;
+        }
+        .c{
+            background-image: url(./door1.jpg);
+            height: 450px;
+            width: 150px;
+            background-size:100% 100%;
+            background-position: 0px 100px;
+            background-repeat: no-repeat;
+            background-position: 1500px 200px; 
+            /* position: absolute;
+            top: 0px;
+            right: 0px; */
+            transform:  perspective(400px) rotateY(0deg);
+            transform-origin: right;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>

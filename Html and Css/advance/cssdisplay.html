@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-display</title>
+    <style>
+        div h1{
+            background-color: #31fbfb;
+            margin: 10px;
+            padding: 10px;
+            display: inline;
+        }
+        span{
+            background-color: beige;
+            display: block;
+            padding: 5px;
+            margin: 10px;
+        }
+        a{
+            background-color: cadetblue;
+            display: block;
+            padding: 10px;
+            width: 200px;
+        }
+        h1{
+            background-color: red;
+            display: none;
+        }
+        .parent{
+            background-color: aliceblue;
+            padding: 20px;
+            width: 300px;
+            
+
+        }
+        .child{
+            background-color: cadetblue;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- inline -->
+    <div>
+        <h1>good morning</h1>
+        <h1>good afternoon</h1>
+        <h1>good evening</h1>
+    </div>
+    <!-- block -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>1.
+        Repellat saepe excepturi quibusdam ducimus dolorem</span> <span>2. omnis vel exercitationem optio blanditiis suscipit </span><span>3. aperiam fuga modi, tempora eius id ipsa </span><span>4. provident commodi laborum iusto dicta facere. </span> optio corporis beatae ducimus mollitia eligendi exercitationem eos quos nulla obcaecati, libero atque!</p>
+
+    <!-- none -->
+        <h1>iam hidden</h1>
+    <!-- inline-block -->
+    
+        <div class="child">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quam alias, voluptates eos illo, quisquam voluptatem sit ex modi natus dolore in. Atque modi ratione voluptate. Deserunt nam eos molestias esse doloribus nulla culpa tempora ab facilis quaerat recusandae tenetur consequuntur, nemo quo repudiandae. Aut, eius! Quas ab eum porro.
+            </p>
+        </div>
+
+        <div class="child">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quam alias, voluptates eos illo, quisquam voluptatem sit ex modi natus dolore in. Atque modi ratione voluptate. Deserunt nam eos molestias esse doloribus nulla culpa tempora ab facilis quaerat recusandae tenetur consequuntur, nemo quo repudiandae. Aut, eius! Quas ab eum porro.
+            </p>
+        </div>
+
+        <div class="child">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quam alias, voluptates eos illo, quisquam voluptatem sit ex modi natus dolore in. Atque modi ratione voluptate. Deserunt nam eos molestias esse doloribus nulla culpa tempora ab facilis quaerat recusandae tenetur consequuntur, nemo quo repudiandae. Aut, eius! Quas ab eum porro.
+            </p>
+        </div>
+
+        <h1 class="child">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quam alias, voluptates eos illo, quisquam voluptatem sit ex modi natus dolore in. Atque modi ratione voluptate. Deserunt nam eos molestias esse doloribus nulla culpa tempora ab facilis quaerat recusandae tenetur consequuntur, nemo quo repudiandae. Aut, eius! Quas ab eum porro.
+            </p>
+        </h1>
+    
+</body>
+</html>
+<!-- 
+    css display
+    ---------------
+    inline elements
+    ----------
+    <a>,<span>,<input>,<img>
+    block elements
+    ------------
+    <h1-h6>,<p>,<div>,<section>
+    
+    display="inline" it converts the block to inline
+    display:"block" it converts the inline to the block
+    display:"none"  it is to hide the element
+    display: "inline-block" it display straight line box
+
+ -->

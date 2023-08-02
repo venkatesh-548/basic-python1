@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 400px;
+            margin: 100px auto;
+            /* background-color: rgba(0 0 0 0.5); */
+            
+            position: relative;
+            overflow: hidden;
+            transition: 1s;
+        }
+        .container img{
+            height: inherit;
+            width: inherit;  
+            border-radius: 10px; 
+            transition: 1s;
+        }
+        .content{
+            position: absolute;
+            top: -15px;
+            height: 100%;
+            width: 50%;
+            background-color: rgba(21, 20, 20, 0.5);
+            color: whitesmoke;
+            font-family: comic sans-serif;
+            padding-left: 10px;
+            box-sizing: border-box;
+            transform: perspective(400px) rotateY(90deg);
+            transform-origin: left;
+            transition: 1s;
+            border-radius: 10px;
+        }
+        .container:hover .content{
+            transform: perspective(400px) rotateY(0deg);
+            
+        }
+        .container:hover img{
+            transform: scale(1.2,1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./ntr-30-devara.jpeg" alt="">
+        <p class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis nulla, dolorum qui tempora et. Quaerat voluptatem dolores ipsum eum laborum. Illum, deserunt est optio voluptatum velit a quos suscipit natus obcaecati impedit itaque ipsam! Magnam unde corrupti minus veniam consequuntur dolores necessitatibus pariatur nesciunt voluptate numquam placeat, fuga maiores.</p>
+    </div>
+</body>
+</html>

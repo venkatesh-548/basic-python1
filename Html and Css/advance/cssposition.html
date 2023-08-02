@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 4000px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            box-shadow: 0 0   5px black;
+
+        }
+        .box1{
+            background-color: red;
+            position: static;
+            right: 200px; #it is constant
+        }
+        .box2{
+            background-color: green;
+            position: relative;
+            left: 300px;
+            top:100px
+        }
+        .box3{
+            background-color: yellow;
+        }
+        .box4{
+            background-color: teal;
+            position: fixed;
+            top: 10px;
+            left: 500px;
+        }
+        .box5{
+            background-color: purple;
+            position: sticky;
+            top: 10px;
+        }
+        .box6{
+            background-color: rgb(26, 26, 28);
+        }
+        .container{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(0,0, 0,0.5));
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="container">
+        <div class="box box3"></div>
+        <div class="box box6"></div>
+    </div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+</body>
+</html>
+<!-- css positions
+static: default position of the html element(static)
+relative: this position is relative to its own
+absolute: this is positioned relative to its own
+fixed: this is fix an element in the given position
+sticky: this is to stick any element in the given position
+
+top, bottom, left, right
+-->
