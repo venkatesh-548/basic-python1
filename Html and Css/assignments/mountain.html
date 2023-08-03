@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(../sky.jpg);
+        }
+        div{
+            background-image: url(../mountain.png),url(../mountain.png);
+            height: 600px;
+            width: 100%;
+            background-size: 650px 400px,650px 400px;
+            background-repeat: no-repeat;
+            background-position: 0px 200px,600px 200px; 
+            transition: 3s,3s;
+            color: transparent;
+            font-size: 20px;
+            /* padding-left: 470px;
+            padding-top: 200px; */
+        }
+        div:hover{
+            background-image: url(../mountain.png),url(../mountain.png);
+            /* background-size: 600px 00px,400px 400px; */
+            background-repeat: no-repeat;
+            background-position: -150px 200px,800px 200px ;
+            color: red;
+            font-size: 50px;
+            padding: 50px;
+        }
+        .a{
+            
+            position: relative;
+            left: 250px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div><h1 class="a">journey begins...!</h1></div>
+</body>
+</html>
