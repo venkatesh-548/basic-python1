@@ -1,0 +1,8 @@
+city=(['repalle','guntur','vizag','tenali'])
+print(city)
+str=(['r','s','g','t'])
+print(str)
+k=linspace(0,20,5)
+print(k)
+l=linspace(10,20,2)
+print(l)
