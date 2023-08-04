@@ -1,0 +1,9 @@
+1) lorem can be used for dummy content in vs code for paragraph.
+2) unsplash for download free images.
+3) first "./" can be enter to select the images in the current folder.
+4) ctrl+"/" for comment
+5) anchor <a for links tag.
+6) target attribute is used for open link in next page.
+7) id can be used for go to top of the link href=#top
+
+
