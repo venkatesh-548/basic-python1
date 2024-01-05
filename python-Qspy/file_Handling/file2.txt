@@ -1,0 +1,9 @@
+my skill
+python
+django
+html
+css
+javascript
+sql
+manual testing
+my resume

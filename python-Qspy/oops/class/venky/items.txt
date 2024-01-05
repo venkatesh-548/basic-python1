@@ -1,0 +1,7 @@
+shirt-500
+trouser-700
+short-400
+jeans-700
+tshirt-300
+shoes-800
+sandles-600

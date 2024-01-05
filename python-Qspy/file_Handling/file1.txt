@@ -1,0 +1,4 @@
+it is platform independent
+pythonis a highlevel programming language
+it is a dynamically typed language
+it is a compatable language
